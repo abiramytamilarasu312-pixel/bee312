@@ -113,8 +113,7 @@
   }
 
   .text-gradient {
-    @apply bg-clip-text text-transparent;
-    background: var(--gradient-accent);
+    @apply text-accent;
   }
 
   .text-gradient-blue {
