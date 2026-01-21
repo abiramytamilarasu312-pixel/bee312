@@ -52,7 +52,7 @@ const HeroSection = () => {
         >
           <span className="text-foreground">ABIRAMY</span>
           <br />
-          <span className="text-gradient">TAMILARASU</span>
+          <span className="text-accent">TAMILARASU</span>
         </motion.h1>
 
         <motion.p
