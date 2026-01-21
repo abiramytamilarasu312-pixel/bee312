@@ -48,7 +48,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight"
+          className="font-name text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight"
         >
           <span className="text-foreground">ABIRAMY</span>
           <br />
