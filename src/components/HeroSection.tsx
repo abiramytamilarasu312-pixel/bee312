@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Download, FolderOpen, Mail, ChevronDown } from "lucide-react";
+import { Download, FolderOpen, Mail, ChevronDown, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import GearIcon from "./GearIcon";
 
@@ -77,14 +77,22 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          className="flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap"
         >
-          <Button variant="hero" size="xl" className="group">
-            <Download className="w-5 h-5 group-hover:animate-bounce" />
-            Download Resume
-          </Button>
+          <a href="/resume/RESUME_702.pdf" download="Abiramy_Tamilarasu_Resume.pdf">
+            <Button variant="hero" size="xl" className="group">
+              <Download className="w-5 h-5 group-hover:animate-bounce" />
+              Download Resume
+            </Button>
+          </a>
+          <a href="/resume/RESUME_702.pdf" target="_blank" rel="noopener noreferrer">
+            <Button variant="heroOutline" size="xl" className="group">
+              <Eye className="w-5 h-5" />
+              View Resume
+            </Button>
+          </a>
           <Button
-            variant="heroOutline"
+            variant="steel"
             size="xl"
             onClick={() => scrollToSection("projects")}
           >
@@ -92,7 +100,7 @@ const HeroSection = () => {
             View Projects
           </Button>
           <Button
-            variant="steel"
+            variant="secondary"
             size="xl"
             onClick={() => scrollToSection("contact")}
           >
