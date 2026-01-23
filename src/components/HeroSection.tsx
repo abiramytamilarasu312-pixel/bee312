@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { Download, FolderOpen, Mail, ChevronDown, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
-import GearIcon from "./GearIcon";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   const scrollToSection = (id: string) => {
@@ -12,26 +11,19 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden hero-gradient"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background Elements */}
-      <div className="absolute inset-0 blueprint-grid opacity-30" />
-      <div className="absolute inset-0 gear-pattern opacity-20" />
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
       
-      {/* Floating Gears */}
-      <div className="absolute top-20 left-10 opacity-20">
-        <GearIcon size={120} className="animate-gear-rotate" />
-      </div>
-      <div className="absolute bottom-32 right-10 opacity-15">
-        <GearIcon size={180} className="animate-gear-rotate" style={{ animationDirection: 'reverse' }} />
-      </div>
-      <div className="absolute top-1/3 right-1/4 opacity-10">
-        <GearIcon size={80} className="animate-gear-rotate" />
-      </div>
+      {/* Dark Overlay for readability */}
+      <div className="absolute inset-0 bg-background/70" />
       
-      {/* Gradient Orbs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse-glow" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/10 rounded-full blur-3xl animate-pulse-glow" style={{ animationDelay: '1s' }} />
+      {/* Subtle Blueprint Grid */}
+      <div className="absolute inset-0 blueprint-grid opacity-10" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
