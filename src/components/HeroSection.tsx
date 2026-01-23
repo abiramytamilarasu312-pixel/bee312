@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Download, FolderOpen, Mail, ChevronDown, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import GearIcon from "./GearIcon";
 
 const HeroSection = () => {
@@ -85,12 +86,12 @@ const HeroSection = () => {
               Download Resume
             </Button>
           </a>
-          <a href="/resume/RESUME_702.pdf" target="_blank" rel="noopener noreferrer">
+          <Link to="/resume">
             <Button variant="heroOutline" size="xl" className="group">
               <Eye className="w-5 h-5" />
               View Resume
             </Button>
-          </a>
+          </Link>
           <Button
             variant="steel"
             size="xl"
