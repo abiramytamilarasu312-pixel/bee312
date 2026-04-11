@@ -400,7 +400,7 @@ const DigitalTwinProject = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="flex flex-wrap justify-center gap-4 mt-10"
         >
-          <Button variant="hero" size="lg" className="gap-2" onClick={() => window.open("#", "_blank")}>
+          <Button variant="hero" size="lg" className="gap-2" onClick={() => window.open("https://digital-twin-ruby-nine.vercel.app/", "_blank")}>
             <ExternalLink className="w-4 h-4" />
             View Live Demo
           </Button>
