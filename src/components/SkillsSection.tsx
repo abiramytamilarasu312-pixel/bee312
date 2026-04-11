@@ -21,6 +21,7 @@ const SkillsSection = () => {
     { name: "NX CAD", level: 75, icon: Wrench },
     { name: "MS Office Tools", level: 90, icon: FileSpreadsheet },
     { name: "Mechanical Design Basics", level: 80, icon: Monitor },
+    { name: "AI - Powered Development", level: 60, icon: Lightbulb },
   ];
 
   const softSkills = [
