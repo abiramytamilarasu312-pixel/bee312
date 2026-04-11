@@ -5,6 +5,7 @@ import EducationSection from "@/components/EducationSection";
 import SkillsSection from "@/components/SkillsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
+import DigitalTwinProject from "@/components/DigitalTwinProject";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
