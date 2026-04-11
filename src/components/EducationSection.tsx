@@ -12,9 +12,10 @@ const EducationSection = () => {
       degree: "B.E Mechanical Engineering",
       institution: "Government College of Engineering, Srirangam",
       year: "2022 – 2026",
-      score: "CGPA: 7.6",
+      score: "CGPA: 7.7",
       type: "cgpa",
       current: true,
+      academicYear: "2022-2026",
     },
     {
       degree: "Higher Secondary Education",
