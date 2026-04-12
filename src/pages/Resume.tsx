@@ -29,13 +29,13 @@ const Resume = () => {
                 Back to Portfolio
               </Button>
             </Link>
-            <a href="/resume/RESUME_702.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/documents/Abiramy_Tamilarasu_Resume.pdf" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="sm" className="gap-2">
                 <ExternalLink className="w-4 h-4" />
                 Open in New Tab
               </Button>
             </a>
-            <a href="/resume/RESUME_702.pdf" download="Abiramy_Tamilarasu_Resume.pdf">
+            <a href="/documents/Abiramy_Tamilarasu_Resume.pdf" download="Abiramy_Tamilarasu_Resume.pdf">
               <Button variant="hero" size="sm" className="gap-2">
                 <Download className="w-4 h-4" />
                 Download PDF
@@ -83,7 +83,7 @@ const Resume = () => {
             
             <div className="relative" style={{ height: "calc(100vh - 220px)", minHeight: "600px" }}>
               <iframe
-                src="/resume/RESUME_702.pdf"
+                src="/documents/Abiramy_Tamilarasu_Resume.pdf"
                 className="w-full h-full border-0"
                 title="Abiramy Tamilarasu Resume"
               />
@@ -94,13 +94,13 @@ const Resume = () => {
                   Unable to display PDF in browser
                 </p>
                 <div className="flex gap-3">
-                  <a href="/resume/RESUME_702.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/documents/Abiramy_Tamilarasu_Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline">
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Open PDF
                     </Button>
                   </a>
-                  <a href="/resume/RESUME_702.pdf" download="Abiramy_Tamilarasu_Resume.pdf">
+                  <a href="/documents/Abiramy_Tamilarasu_Resume.pdf" download="Abiramy_Tamilarasu_Resume.pdf">
                     <Button variant="hero">
                       <Download className="w-4 h-4 mr-2" />
                       Download PDF
