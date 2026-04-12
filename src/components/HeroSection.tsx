@@ -78,7 +78,7 @@ const HeroSection = () => {
               Download Resume
             </Button>
           </a>
-          <a href="/documents/Abiramy_Tamilarasu_Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/10DIs-uVhzWePFvsrKPSnG3xS1XRqndrS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <Button variant="heroOutline" size="xl" className="group">
               <Eye className="w-5 h-5" />
               View Resume
