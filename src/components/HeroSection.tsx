@@ -63,7 +63,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-base md:text-lg text-muted-foreground/80 max-w-xl mx-auto mb-10 font-body italic"
         >
-          "Passionate mechanical engineering student focused on design, analysis, and continuous learning."
+          "Passionate mechanical engineer focused on design, analysis, and continuous learning."
         </motion.p>
 
         <motion.div
