@@ -63,7 +63,7 @@ const AboutSection = () => {
                 <p className="leading-relaxed">
                   I'm a final year B.E Mechanical Engineering student (2022–2026) at
                   <span className="text-foreground font-medium"> Government College of Engineering, Srirangam</span>,
-                  with a CGPA of <span className="text-accent font-semibold">7.7</span>.
+                  with a CGPA of <span className="text-accent font-semibold">7.6</span>.
                 </p>
                 
                 <p className="leading-relaxed">
@@ -80,7 +80,7 @@ const AboutSection = () => {
 
               <div className="mt-8 flex items-center gap-4 p-4 bg-secondary/50 rounded-lg border border-border">
                 <div className="w-16 h-16 rounded-full blue-gradient flex items-center justify-center text-2xl font-display font-bold">
-                  7.7
+                  7.6
                 </div>
                 <div>
                   <p className="font-display text-lg font-semibold">Current CGPA</p>
