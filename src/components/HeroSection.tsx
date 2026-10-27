@@ -33,7 +33,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
         >
           <p className="text-accent font-display text-lg md:text-xl tracking-[0.3em] uppercase mb-4">
-            Mechanical Engineering Student
+            Mechanical Engineer
           </p>
         </motion.div>
 
@@ -54,7 +54,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4 font-body"
         >
-          B.E Mechanical Engineering – Final Year Student
+          B.E Mechanical Engineering
         </motion.p>
 
         <motion.p
